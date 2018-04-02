@@ -27,7 +27,7 @@ import org.json.simple.parser.ParseException;
  */
 public class App 
 {
-	final static int batchSize = 5;
+	final static int batchSize = 500000;
 	final static int limit = 100;
 	final static Map<Long, List<String>> timeMap = new TreeMap<>(Collections.reverseOrder());
 	final static String tempDirectory = "resources/tmp";
